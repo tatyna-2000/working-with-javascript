@@ -1,4 +1,5 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-function myAPITS(someString: string, someNum: number) { ... };
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+console.log( "A" - "B" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
+const merge = [...new Set([...a, ...b])];
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
