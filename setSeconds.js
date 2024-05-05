@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const uniqueArr = (arr) => [...new Set(arr)];
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const isArray = (arr) => Array.isArray(arr);
