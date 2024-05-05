@@ -1,4 +1,3 @@
-var arr1 = "john".split('');
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const removeDuplicates = (arr) => [...new Set(arr)];
-const isArray = (arr) => Array.isArray(arr);
+console.log("0 && 1 = "+(0 && 1));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
