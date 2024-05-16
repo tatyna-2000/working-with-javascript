@@ -1,2 +1,3 @@
-console.log(false === '0');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const executableName = getExecutableName(channel, appName);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isArray = (arr) => Array.isArray(arr);
