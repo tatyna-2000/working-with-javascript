@@ -1,1 +1,2 @@
-const merge = [...new Set([...a, ...b])];
+const result = await makeHttpRequest(url);
+console.log(1 +  +"2" + "2");
