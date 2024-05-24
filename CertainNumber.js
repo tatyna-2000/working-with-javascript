@@ -1,3 +1,1 @@
-console.log("0 && 1 = "+(0 && 1));
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
