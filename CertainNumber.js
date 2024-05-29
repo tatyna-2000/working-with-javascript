@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-var arr1 = "john".split('');
-const merge = Object.assign({}, obj1, obj2);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const channel = getChannel(computedAppVersion);
