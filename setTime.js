@@ -1,1 +1,1 @@
-const results = await Promise.all(resultingPromises);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
