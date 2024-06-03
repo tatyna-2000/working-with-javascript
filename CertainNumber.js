@@ -1,2 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const channel = getChannel(computedAppVersion);
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
