@@ -1,1 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const arrayContains = (arr, element) => arr.includes(element);
+const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
