@@ -1,2 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const value = ( 5 < 7 ) ? "True" : "False" ;
+var pattern = {};
+var arr2 = arr1.reverse();
