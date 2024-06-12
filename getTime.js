@@ -1,3 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-var pattern = {};
-var arr2 = arr1.reverse();
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
