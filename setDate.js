@@ -1,3 +1,2 @@
-console.log(1 +  -"1" + "2");
-const updated = numbers.filter(element => element > 6);
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const channel = getChannel(computedAppVersion);
+const merge = [...new Set([...a, ...b])];
