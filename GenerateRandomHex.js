@@ -1,1 +1,1 @@
-console.log(false == '0');
+const merge = (a, b) => [...a, ...b];
