@@ -1,2 +1,3 @@
-console.log(typeof typeof 1);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const allResults = await Promise.all(items.map(async (item) => {}));
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
