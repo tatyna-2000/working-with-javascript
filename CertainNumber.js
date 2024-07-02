@@ -1,2 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const randomBoolean = () => Math.random() >= 0.5;
+console.log("1 || 2 = "+(1 || 2));
