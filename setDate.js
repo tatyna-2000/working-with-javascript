@@ -1,1 +1,2 @@
-console.log(+"1" +  "1" + "2");
+function myAPITS(someString: string, someNum: number) { ... };
+const scriptRootPath = path.join(repositoryRootPath, 'script');
