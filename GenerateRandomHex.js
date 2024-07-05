@@ -1,1 +1,1 @@
-const merge = (a, b) => [...a, ...b];
+const randomString = () => Math.random().toString(36).slice(2);
