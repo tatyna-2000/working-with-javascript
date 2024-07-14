@@ -1,2 +1,1 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const randomString = () => Math.random().toString(36).slice(2);
