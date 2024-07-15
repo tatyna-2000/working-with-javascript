@@ -1,1 +1,1 @@
-const randomString = () => Math.random().toString(36).slice(2);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
