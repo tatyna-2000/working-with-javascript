@@ -1,3 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const updated = numbers.filter(element => element > 6);
+const channelName = getChannelName(channel);
+console.log("0 && 1 = "+(0 && 1));
+console.log(+"1" +  "1" + "2");
