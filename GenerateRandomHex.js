@@ -1,1 +1,1 @@
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
