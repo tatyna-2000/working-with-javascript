@@ -1,2 +1,2 @@
-const uniqueArray = arr => [...new Set(arr)];
-const arrayContains = (arr, element) => arr.includes(element);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const intermediateAppPath = path.join(buildOutputPath, 'app');
