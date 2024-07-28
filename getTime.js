@@ -1,2 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const fullName = name || 'buddy';
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log("1 || 2 = "+(1 || 2));
+const toggleBool = () => (bool = !bool);
