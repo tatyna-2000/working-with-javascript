@@ -1,3 +1,1 @@
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
-const executableName = getExecutableName(channel, appName);
-const merge = [...new Set([...a, ...b])];
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
