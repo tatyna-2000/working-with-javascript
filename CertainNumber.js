@@ -1,1 +1,1 @@
-const results = await Promise.all(resultingPromises);
+var arr3 = "jones".split('');
