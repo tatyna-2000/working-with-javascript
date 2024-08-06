@@ -1,1 +1,1 @@
-const minNumber = arr => Math.min(...arr);
+const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
