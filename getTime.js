@@ -1,3 +1,2 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-console.log("1 || 2 = "+(1 || 2));
-const toggleBool = () => (bool = !bool);
+const merge = Object.assign({}, obj1, obj2);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
